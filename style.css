@@ -1,0 +1,90 @@
+:root {
+    --grey: #adb3bd;
+    --grey-blue: #84949e;
+    --blue: #516b90;
+    --dark-blue: #4b5c74;
+}
+
+body {
+    background-color: #4b5c74;
+    height: 100vh;
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.background {
+    width: 200vh;
+    height: 100vh;
+    display: flex;
+    position: absolute;
+}
+
+.information-box {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 38vh;
+    height: 60vh;
+    left: 50%;
+    background-color: white;
+    border-radius: 1.25rem;
+}
+
+.Banner {
+    height: 400px;
+    height: 200px;
+    float: left;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    text-align: center;
+}
+
+.annual-plan {
+    border: none;
+    border-radius: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    max-height: 5.5rem;
+    max-width: 20rem;
+    margin-left: 0.7rem;
+}
+
+.title {
+    position: relative;
+    text-align: center;
+    left: 5rem;
+}
+
+.change {
+    align-self: flex-end;
+    bottom: 200px;
+}
+
+.price {
+    position: relative;
+    left: 5rem;
+    top: -1.2rem;
+}
+
+.payment {
+    border: none;
+    background: transparent;
+}
+
+.cancel {
+    border: none;
+    background: transparent;
+}
